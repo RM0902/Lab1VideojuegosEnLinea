@@ -1,0 +1,51 @@
+# Ignorar archivos generados por Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Archivos de proyecto específicos de Unity
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.userprefs
+
+# Archivos de asset específicos de Unity
+*.pidb
+*.pdb
+*.meta
+*.unitypackage
+*.asset
+
+# Ignorar archivos de autoguardado
+*.autosave
+
+# Ignorar archivos de caché de Unity
+/[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/Plugins*
+/[Aa]ssets/StreamingAssets/AA*
+
+# Ignorar archivos de configuración local
+ProjectSettings/ProjectVersion.txt
+ProjectSettings/EditorBuildSettings.asset
+
+# Ignorar archivos de paquetes de Unity
+/[Pp]ackages/
+
+# Ignorar archivos de caché de paquetes
+/[Ll]ocal[Cc]ache/
+
+# Ignorar archivos de registro
+/[Ll]ogs/
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de IDE
+.vscode/
+.idea/
